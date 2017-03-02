@@ -1,0 +1,27 @@
+{
+  "name": "degra's-mean-project",
+  "version": "0.1.3",
+  "description": "My first MEAN Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified.\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "cors":"*",
+    "body-parser":"*",
+    "mongoose":"*",
+    "passport":"*",
+    "passport-jwt":"*",
+    "bcryptjs":"*",
+    "jsonwebtoken":"*"
+  },
+  "author": {
+   "name": "Oliver Nagel",
+   "email": "rulestormer@gmail.com",
+   "url": "degra.goip.de"
+  },
+  "license": "GPL-2.0"
+}
